@@ -36,5 +36,5 @@ for i in listOfLists:
         print("\n\n##### Consistent Lists #####")
     else: print("----------")
     #print(shellsort(i.copy()))
-    #print(heapsort(i.copy()))
+    print(heapSort(i.copy()))
     counter += 1
