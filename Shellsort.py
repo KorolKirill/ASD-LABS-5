@@ -1,7 +1,7 @@
 import time
 
 
-def shellsort(array):
+def shellsort(data):
     start = time.perf_counter()
     n = len(data)
     gap = n // 2
@@ -20,4 +20,4 @@ def shellsort(array):
 
     end = time.perf_counter()
     finalTime = 1000 * (end - start)
-    return "Shellsort for "+ str(len(array)) + " elements took "+ str(round(finalTime,3))+" miliseconds"
+    return "Shellsort for "+ str(len(data)) + " elements took "+ str(round(finalTime,3))+" miliseconds"
